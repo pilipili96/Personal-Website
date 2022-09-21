@@ -53,7 +53,9 @@ body{
 }
 
 .sec-pad {
-padding: 12rem 0; 
+padding: 12rem 0;
+margin-bottom:-110px; 
+margin-top:-50px;
 }
 
 .skills {
@@ -130,12 +132,10 @@ button{
 .navbar-toggler-icon{
     width:22px;
 }
-.text-muted{
-    font-size:16px;
-}
-
-.fa-brands{
+.fa-brands, .fa-solid{
     color:black;
+    font-size:32px;
+    margin-right:8px;
 }
 .navbar{
     position: fixed;
@@ -181,6 +181,58 @@ button{
   width: 100%;
   line-height: 1.6;
 }
+.btn-success{
+    width:100px;
+    height:35px;
+    font-size:15px;
+}
+.image-size{
+    object-fit: contain; 
+}
+.resume{
+    text-align: center;
+    font-size:18px; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.margin-section{
+    margin-top:40px;
+}
+.socials-margin{
+    margin-top:120px;
+}
+.footer-text{
+    font-size:16px;
+}
+.card{
+    background-color:rgba(128, 128, 128, 0.062);
+}
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin-left:100px;
+  }
+.row1{
+    box-sizing: border-box;
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.text-align-resume{
+    text-align:left;
+}
+.resume-section{
+    text-align:left;
+    font-weight:bold;
+    padding:10px;
+
+}
+
 @media only screen and (max-width: 56.25em) {
     html {
         font-size: 56%; 
@@ -256,4 +308,7 @@ button{
 @media only screen and (max-width: 900px) {
     .about__content-title-skills {
       margin-top:-70px; } 
+      .sec-pad{
+        margin-bottom: -50px
+      }
 }
