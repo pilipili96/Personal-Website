@@ -37,7 +37,7 @@ body{
 .about__content-details-para {
     text-indent:24px;
     font-size: 1.8rem;
-    color: grey;
+    color: #808080;
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 1rem; 
@@ -133,8 +133,8 @@ button{
     width:22px;
 }
 .fa-brands, .fa-solid{
-    color:black;
-    font-size:32px;
+    color:rgba(0, 0, 0, 0.87);
+    font-size:48px;
     margin-right:8px;
 }
 .navbar{
@@ -201,10 +201,11 @@ a{
     margin-top:40px;
 }
 .socials-margin{
-    margin-top:120px;
+    margin-top:20px;
 }
 .footer-text{
     font-size:16px;
+    text-align:center;
 }
 .card{
     background-color:rgba(128, 128, 128, 0.062);
@@ -213,7 +214,7 @@ a{
     float: left;
     width: 40%;
     padding: 10px;
-    margin-left:100px;
+    margin-left:120px;
   }
 .row1{
     box-sizing: border-box;
@@ -225,14 +226,67 @@ a{
 }
 .text-align-resume{
     text-align:left;
+    color: #808080;
+    font-size:18px;
 }
 .resume-section{
     text-align:left;
-    font-weight:bold;
+    font-weight:600;
     padding:10px;
-
+    font-size:20px
 }
-
+.empty-div{
+    width:100vh;
+    height:80px;
+}
+#projects, #resume, #socials{
+    padding-top:80px;
+    background-color:rgba(253, 251, 251, 0.822);
+}
+.card-title{
+    font-size:22px;
+    text-align:center;
+    margin:10px 0 10px 0;
+   
+}
+.card-text{
+    font-size:16px;
+    text-indent:15px;
+    line-height:1.6;
+    color: #808080;
+}
+.card{
+    display: table-cell;
+}
+.col-lg-4{
+    display: table;
+}
+.text-center{
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding:10px;
+}
+.card-biggest{
+    margin-bottom:45px;
+}
+.dates{
+    font-size:12px;
+    text-align:left;
+    text-indent:20px;
+}
+.resume-title-section{
+    font-size:32px;
+    padding:7px;
+}
+li{
+    padding:5px;
+}
+strong{
+    color:rgb(90, 86, 86);
+}
 @media only screen and (max-width: 56.25em) {
     html {
         font-size: 56%; 
@@ -312,3 +366,39 @@ a{
         margin-bottom: -50px
       }
 }
+@media only screen and (max-width: 991px) {
+  .text-center{
+    position:relative;
+  }
+  .card-biggest{
+    margin-bottom:0;
+  }
+}
+@media only screen and (max-width: 2000px) {
+    .column{
+        margin-left:60px;
+        margin-right:20px;
+    }
+}
+@media only screen and (max-width: 994px) {
+    .column{
+        margin-left:40px;
+        margin-right:0;
+    }
+}
+@media only screen and (max-width: 804px) {
+    .column{
+        margin-left:30px;
+        margin-right:20px;
+    }
+}
+@media only screen and (max-width: 669px) {
+    .column{
+        margin-left:30px;
+        margin-right:10px;
+        float: left;
+        width: 90%;
+    }
+}
+
+
