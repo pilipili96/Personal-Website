@@ -285,6 +285,11 @@ a{
 li{
     padding:5px;
 }
+i:hover { 
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
 strong{
     color:rgb(90, 86, 86);
 }
