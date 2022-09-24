@@ -244,6 +244,12 @@ a{
     padding-top:80px;
     background-color:rgba(253, 251, 251, 0.822);
 }
+#home{
+    background-image: url("background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .card-title{
     font-size:22px;
     text-align:center;
@@ -300,6 +306,7 @@ hr {
     border-top: 1px solid black;
     width:100%
 }
+
 @media only screen and (max-width: 56.25em) {
     html {
         font-size: 56%; 
@@ -391,6 +398,11 @@ hr {
     .column{
         margin-left:60px;
         margin-right:20px;
+    }
+    #home{
+        background-image: url("background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 @media only screen and (max-width: 994px) {
